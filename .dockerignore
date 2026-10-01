@@ -1,0 +1,14 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+.git
+.gitignore
+*.db
+*.sqlite3
+uploaded_files/
+secret.key
+alembic/versions/__pycache__
+.pytest_cache
+*.egg-info

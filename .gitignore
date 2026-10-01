@@ -1,0 +1,46 @@
+# Environment & Secrets
+.env
+*.key
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Virtual Environments
+filenv/
+minorenv/
+testenv/
+venv/
+.venv/
+*.venv/
+
+# Dependencies & Build Output
+node_modules/
+frontend/dist/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Logs & Databases
+*.log
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Explicit inclusions (to prevent accidental ignoring)
+!app/ml/models/isolation_forest.joblib
+!frontend/package-lock.json
+!.env.example
+!frontend/.env.example
+!app/abi.json
+!abi.json
+!alembic/
